@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://guarlo.com.ar/pi1/">
-    <img src="https://guarlo.com.ar/pi1/img/logo_cooperadora_1.jpg" alt="Cooperadora Hospital Chivilcoy logo" width="200" height="165">
+    <img src="https://guarlo.com.ar/pi1/img/logo_cooperadora_1.jpg" alt="Cooperadora Hospital Chivilcoy logo" width="200" height="200">
   </a>
 </p>
 
