@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de contacto</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Forma de contacto</h1>
+    <hr />
+
+    <!-- <form action="https://formsubmit.co/xguarlo@gmail.com" method="POST"> 
+    formsubmit asigna un "random-like string" al primer intento de envio
+    > Use this random-like string 1d65040035fc683a2bf42ff2a7f4a1b2 to replace your naked email address in the action attribute of your form.
+    -->
+    <!-- <form
+      action="https://formsubmit.co/1d65040035fc683a2bf42ff2a7f4a1b2"
+      method="POST"
+    > -->
+    <form action="https://formsubmit.co/xguarlo@gmail.com" method="POST">
+      <fieldset>
+        <label for="nameField">Nombre</label>
+        <input
+          required="Yes"
+          type="text"
+          placeholder="mi nombre..."
+          id="nameField"
+          name="name"
+        />
+
+        <label for="ageRangeField">Edad</label>
+        <select id="ageRangeField" name="Range">
+          <option value="10-20">10-20</option>
+          <option value="21-40">21-40</option>
+          <option value="41-60">41-60</option>
+          <option value="61+">61+</option>
+        </select>
+
+        <hr />
+
+        <label>Como podr&iacute;as colaborar?</label>
+        <p>&nbsp;</p>
+        <div class="radio">
+          <div class="">
+            <label for="socio">Haci&eacute;ndome socio</label>
+            <input
+              type="radio"
+              name="aportar"
+              id="socio"
+              value="Quiero ser socio"
+            />
+          </div>
+
+          <div class="">
+            <label for="rifa">Comprando la Rifas</label>
+            <input
+              type="radio"
+              name="aportar"
+              id="rifa"
+              value="Quiero comprar la rifa"
+            />
+          </div>
+
+          <div class="">
+            <label for="donacion">Donando algo</label>
+            <input
+              type="radio"
+              name="aportar"
+              id="donacion"
+              value="Quiero donar algo"
+            />
+          </div>
+
+          <div class="">
+            <label for="subcidio">Contacto para lograr un subcidio</label>
+            <input
+              type="radio"
+              name="aportar"
+              id="subcidio"
+              value="Quiero aportar un vinculo para subcidio"
+            />
+          </div>
+        </div>
+        <hr />
+        <div class="">
+          <label for="commentField">Comentario y/o sus datos de contacto</label>
+          <textarea
+            name="commentField"
+            placeholder="Dejanos tus comentarios acá"
+            id="commentField"
+          ></textarea>
+        </div>
+        <br />
+        <input
+          class="button-primary"
+          type="submit"
+          value="Enviar"
+          name="submit"
+        />
+        <input
+          class="button button-outline"
+          type="reset"
+          onclick="regresarAlFormularioAnterior()"
+          value="REGRESAR"
+          name="reset"
+        />
+        <br />
+      </fieldset>
+    </form>
+
+    <script>
+      function regresarAlFormularioAnterior() {
+        window.history.back(); // Retrocede una página en el historial del navegador
+      }
+    </script>
+    <hr />
+    <hr />
+    <br />
+  </body>
+</html>

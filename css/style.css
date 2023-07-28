@@ -1,0 +1,362 @@
+body * {
+  margin: 0px;
+  padding: 0px;
+}
+nav {
+  background-color: rgb(219, 223, 221);
+}
+.nav-link {
+  color: brown;
+}
+
+ul {
+  list-style-type: none;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+/* figure {
+  margin: 0px;
+  padding: 0px;
+} 
+p {
+  margin: 0px;
+  padding: 0px;
+}  */
+
+/* quitar solo para muestra de colores  */
+/* .nav1 {
+  background-color: #075757;
+  color: #181823;
+  background-color: #fc7300;
+  background-color: #1f8a70;
+  background-color: #00425a;
+  background-color: #eff5f5;
+  background-color: #181823;
+} */
+
+.titulo {
+  background-color: #1f8a70;
+  color: rgb(175, 10, 10);
+  font-weight: lighter;
+  font-family: "Belanosima", sans-serif;
+}
+
+#quienessomos {
+  font-family: "Belanosima", sans-serif;
+}
+#quienessomos h2 {
+  color: #740404;
+}
+#quienessomos figure img {
+  width: 30vw;
+}
+#quienessomos p {
+  font-family: "Poppins", sans-serif;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  width: 60vw;
+  color: #00425a;
+}
+
+#porqueayudar {
+  font-family: "Belanosima", sans-serif;
+  color: #00425a;
+}
+#porqueayudar h2 {
+  color: #740404;
+}
+#porqueayudar figure img {
+  width: 30vw;
+}
+#porqueayudar p {
+  font-family: "Poppins", sans-serif;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  width: 60vw;
+  color: #00425a;
+}
+#porqueayudar .porqueayudar-content2 {
+  margin-top: 2rem;
+}
+
+#propuesta {
+  font-family: "Belanosima", sans-serif;
+  color: #00425a;
+}
+#propuesta h2 {
+  color: #740404;
+}
+#propuesta figure img {
+  width: 20vw;
+  padding: 0.25rem;
+}
+#propuesta .propuesta-psub-img {
+  text-align: center;
+}
+#propuesta span {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+#noticias {
+  font-family: "Belanosima", sans-serif;
+  color: #00425a;
+}
+#noticias h2 {
+  color: #740404;
+  margin-bottom: 0.25rem;
+}
+#noticias .noticias-content1 {
+  font-family: "Poppins", sans-serif;
+  margin-left: 0.5rem;
+  margin-right: 0.25rem;
+  width: 30vw;
+}
+#noticias .noticias-content2 {
+  font-family: "Poppins", sans-serif;
+  margin-left: 0.25rem;
+  margin-right: 0.5rem;
+  width: 68vw;
+}
+#noticias h4 {
+  color: #740404;
+}
+#noticias p {
+  color: #00425a;
+}
+
+footer {
+  background-color: cornsilk;
+}
+#contacto {
+  font-family: "Belanosima", sans-serif;
+  color: #00425a;
+  /* display: flexbox; */
+}
+#contacto h2 {
+  color: #740404;
+  margin-bottom: 0.25rem;
+}
+#contacto .contacto-content1 {
+  font-family: "Poppins", sans-serif;
+  margin-top: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.25rem;
+  /* min-width: 39vw; */
+  /* max-width: 30vw; */
+}
+#contacto .contacto-content2 {
+  /* display: none; */
+  font-family: "Poppins", sans-serif;
+  margin-top: 1.5rem;
+  margin-left: 0.25rem;
+  margin-right: 0.5rem;
+  /* min-width: 20vw; */
+  /* max-width: 30vw; */
+}
+#contacto .contacto-content3 {
+  font-family: "Poppins", sans-serif;
+  margin-top: 1.5rem;
+  margin-left: 0.25rem;
+  margin-right: 0.5rem;
+  /* min-width: 70vw; */
+  /* max-width: 65vw; */
+}
+#contacto h4 {
+  color: #740404;
+}
+#contacto p {
+  color: #012b1d;
+}
+#contacto span {
+  color: #012b1d;
+}
+
+#contacto .link-form-comments {
+  margin-top: 2rem;
+}
+#contacto .link-form-comments a {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: #410404;
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  body {
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+  #quienessomos p {
+    font-size: 1rem;
+  }
+  #porqueayudar p {
+    font-size: 1rem;
+  }
+  #quienessomos h2 {
+    font-size: 1.5rem;
+  }
+  #porqueayudar h2 {
+    font-size: 1.5rem;
+  }
+  #propuesta h2 {
+    font-size: 1.5rem;
+  }
+  #propuesta .propuesta-psub-img {
+    font-size: x-small;
+  }
+  #noticias h2 {
+    font-size: 1.5rem;
+  }
+  #noticias h4 {
+    font-size: 1rem;
+  }
+  #noticias p {
+    font-size: 0.75rem;
+  }
+  #contacto h4 {
+    font-size: 0.75rem;
+  }
+  #contacto p,
+  a,
+  span {
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  body {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  #quienessomos p {
+    font-size: 1.5rem;
+  }
+  #porqueayudar p {
+    font-size: 1.5rem;
+  }
+  #quienessomos h2 {
+    font-size: 2.5rem;
+  }
+  #porqueayudar h2 {
+    font-size: 2.5rem;
+  }
+  #propuesta h2 {
+    font-size: 2.5rem;
+  }
+  #propuesta .propuesta-psub-img {
+    font-size: medium;
+  }
+  #noticias h2 {
+    font-size: 2.5rem;
+  }
+  #noticias h4 {
+    font-size: 1.5rem;
+  }
+  #noticias p {
+    font-size: 1rem;
+  }
+  #contacto h4 {
+    font-size: 1rem;
+  }
+  #contacto p,
+  a {
+    font-size: 0.75rem;
+  }
+  #contacto p,
+  a,
+  span {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  body {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  #quienessomos p {
+    font-size: 2rem;
+  }
+  #porqueayudar p {
+    font-size: 2rem;
+  }
+  #quienessomos h2 {
+    font-size: 3rem;
+  }
+  #porqueayudar h2 {
+    font-size: 3rem;
+  }
+  #propuesta h2 {
+    font-size: 3rem;
+  }
+  #propuesta .propuesta-psub-img {
+    font-size: larger;
+  }
+  #noticias h2 {
+    font-size: 3rem;
+  }
+  #noticias h4 {
+    font-size: 1.5rem;
+  }
+  #noticias p {
+    font-size: 1rem;
+  }
+  #contacto h4 {
+    font-size: 1.5rem;
+  }
+  #contacto p,
+  a,
+  span {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  body {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  #quienessomos p {
+    font-size: 2.5rem;
+  }
+  #porqueayudar p {
+    font-size: 2.5rem;
+  }
+  #quienessomos h2 {
+    font-size: 4rem;
+  }
+  #porqueayudar h2 {
+    font-size: 4rem;
+  }
+  #propuesta h2 {
+    font-size: 4rem;
+  }
+  #propuesta .propuesta-psub-img {
+    font-size: xx-large;
+  }
+  #noticias h2 {
+    font-size: 4rem;
+  }
+  #noticias h4 {
+    font-size: 1.5rem;
+  }
+  #noticias p {
+    font-size: 1rem;
+  }
+  #contacto h4 {
+    font-size: 2rem;
+  }
+  #contacto p,
+  a,
+  span {
+    font-size: 1.25rem;
+  }
+}
+
+.form-regresar a {
+  font-size:larger;
+  font: bold;
+}
