@@ -73,6 +73,7 @@ hr {
 #propuesta figure img {
   width: 20vw;
   padding: 0.25rem;
+  margin-top: .5rem;
 }
 #propuesta .propuesta-psub-img {
   text-align: center;

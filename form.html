@@ -22,26 +22,30 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1>Forma de contacto</h1>
+    <h1>Cont&aacute;ctenos!</h1>
     <hr />
 
     <!-- <form action="https://formsubmit.co/xguarlo@gmail.com" method="POST"> 
     formsubmit asigna un "random-like string" al primer intento de envio
     > Use this random-like string 1d65040035fc683a2bf42ff2a7f4a1b2 to replace your naked email address in the action attribute of your form.
     -->
-    <!-- <form
+    <form
       action="https://formsubmit.co/1d65040035fc683a2bf42ff2a7f4a1b2"
       method="POST"
-    > -->
-    <form action="https://formsubmit.co/xguarlo@gmail.com" method="POST">
+    >
+      <!-- <form action="https://formsubmit.co/xguarlo@gmail.com" method="POST"> -->
       <fieldset>
-        <label for="nameField">Nombre</label>
+        <label for="nameField"
+          >Nombre <span style="color: red; font-size: medium">*</span></label
+        >
         <input
           required="Yes"
           type="text"
           placeholder="mi nombre..."
           id="nameField"
           name="name"
+          title="Escriba su nombre completo: Letras, espacios y de 5 a 40 caracteres."
+          pattern="^[A-Za-z ]{5,40}$"
         />
 
         <label for="ageRangeField">Edad</label>
@@ -52,6 +56,33 @@
           <option value="61+">61+</option>
         </select>
 
+        <label for="telefono"
+          >Número telefónico
+          <span style="color: red; font-size: medium">*</span></label
+        >
+        <input
+          type="tel"
+          id="telefono"
+          name="telefono"
+          pattern="[0-9]{7,15}"
+          placeholder="2346454499"
+          title="El número telefónico debe contener entre 7 y 15 dígitos numéricos"
+          required
+        />
+
+        <label for="email"
+          >Correo electrónico
+          <span style="color: red; font-size: medium">*</span></label
+        >
+        <input
+          type="email"
+          name="email"
+          value=""
+          required
+          placeholder="micorreo@dominio.com"
+          title="Ej: pepe@gmail.com"
+        />
+
         <hr />
 
         <label>Como podr&iacute;as colaborar?</label>
@@ -60,6 +91,7 @@
           <div class="">
             <label for="socio">Haci&eacute;ndome socio</label>
             <input
+              required="Yes"
               type="radio"
               name="aportar"
               id="socio"
@@ -88,7 +120,7 @@
           </div>
 
           <div class="">
-            <label for="subcidio">Contacto para lograr un subcidio</label>
+            <label for="subcidio">Contacto para lograr un subsidio</label>
             <input
               type="radio"
               name="aportar"
@@ -121,6 +153,12 @@
           name="reset"
         />
         <br />
+
+        <input
+          type="hidden"
+          name="_subject"
+          value="Pueba de form de contacto para diplomatura UNTREF"
+        />
       </fieldset>
     </form>
 
